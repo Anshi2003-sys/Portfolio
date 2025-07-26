@@ -9,12 +9,15 @@ This project showcases your **skills, projects, education, and contact informati
 ---
 
 ## 📁 Project Structure
+
+```
 portfolio/
 ├── index.html             # Main HTML file
 ├── style.css              # Stylesheet for the portfolio
 ├── README.md              # Project documentation
 ├── images                 # Folder containing image assets
 
+```
 
 ---
 
