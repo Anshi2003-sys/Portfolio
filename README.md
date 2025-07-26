@@ -16,9 +16,7 @@ portfolio/
 ├── style.css              # Stylesheet for the portfolio
 ├── README.md              # Project documentation
 ├── images                 # Folder containing image assets
-
 ```
-
 ---
 
 ## 🚀 Getting Started
@@ -55,7 +53,7 @@ portfolio/
 
 ---
 
-> © All rights reserved.
+© 2025 Anshika Dubey. This project is licensed under the MIT License.
 
 ---
 
