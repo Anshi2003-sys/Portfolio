@@ -12,32 +12,46 @@ This project showcases your **skills, projects, education, and contact informati
 portfolio/
 ├── index.html            # Main HTML file
 ├── style.css             # Stylesheet for the portfolio
-└── images/               # Folder containing image assets
-    ├── Bootstrap.jpeg
-    ├── css.png
-    ├── git.png
-    ├── github.jpg
-    ├── html.png
-    ├── img.html
-    ├── js.webp
-    └── logo.jpeg
+└── images              # Folder containing image assets
+
+
+---
 
 ## 🚀 Getting Started
-To view the portfolio locally:
-1. Download or clone the repository.
-2. Open the `portfolio/index.html` file in any modern web browser.
-No additional setup or installation is required.
+
+### 🖥️ View Locally
+
+1. **Clone or Download** this repository.
+    ```bash
+    git clone https://github.com/your-username/portfolio.git
+    ```
+2. Navigate to the project folder:
+    ```bash
+    cd portfolio
+    ```
+3. Open the `index.html` file in your browser.
+
+> ✅ No installation or dependencies required.
+
+---
 
 ## 🛠️ Built With
-- HTML5
-- CSS3
 
-## 📷 Screenshots
- ![Home](<./images/home.png>) ![Education](<./images/education.png>) ![Skill](<./images/skill.png>)![contact](<./images/contact.png>)
+- 🧱 HTML5  
+- 🎨 CSS3  
+- 💡 Responsive Design Principles
 
+---
 
-## 📬 Contact
-For any inquiries or feedback, feel free to reach out.
-***Anshika Dubey*** 
-__All rights reserved__.
+## 🖼️ Screenshots
+
+| Home | Education | Skills | Contact |
+|------|-----------|--------|---------|
+| ![Home](./images/home.png) | ![Education](./images/education.png) | ![Skills](./images/skill.png) | ![Contact](./images/contact.png) |
+
+---
+
+> © All rights reserved.
+
+---
 
