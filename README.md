@@ -1,6 +1,12 @@
-# Portfolio
-# Personal Portfolio Website
-This is a personal portfolio website project created using HTML and CSS. It showcases your skills, projects, and contact information in a clean and professional layout.
+# 🌐 Personal Portfolio Website
+
+A responsive and modern **personal portfolio website** built with **HTML5** and **CSS3**.  
+This project showcases your **skills, projects, education, and contact information** in a clean, professional layout.
+
+## 🔗 Live Demo
+🎯 [View Live Project](https://anshi2003-sys.github.io/Portfolio/index.html#Education) 
+
+---
 
 ## 📁 Project Structure
 portfolio/
