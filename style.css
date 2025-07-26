@@ -1,0 +1,571 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:linear-gradient(to right,#0f2027,#203a43,#2c5364);     
+    height:cover;
+    width:cover;  
+  }
+
+    .header{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        margin:0px;
+        padding:10px;
+        height:50px;
+        margin-left:50px;
+        width:80px;
+        margin-top:-20px; 
+        color:white; 
+        position: absolute; 
+                 
+    }
+    .header p{
+        font-weight:bold;
+        font-style: italic;
+        font-size: 30px;
+    }
+    
+    .nav{
+        padding:10px;
+        margin:-10px;
+        display:flex;
+        position:absolute;
+        justify-content: center;
+        height:30px;
+        width:600px;
+        margin-top:10px;
+        margin-left:500px;
+        gap:140px;
+    }
+    .nav a{
+        color:white;
+        text-decoration:none;
+        font-style:normal;
+        font-weight:bold;
+        font-size: 25px;
+    }
+    
+    .nav :hover{
+        color:rgb(196, 45, 138);
+    }
+   
+   .container {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background: linear(from 0deg, #00ffff, #ff00ff, #00ffff); /* glowing rainbow ring */
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 150px;
+    animation: spinGlow 4s linear infinite alternate;
+    box-shadow: 0 0 30px #00f2ff;
+    }
+
+    .container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #111; /* optional dark ring inside */
+    }
+
+    .content{
+        position: absolute;
+        height: 350px;
+        width:500px;
+        margin-left: 700px;
+        margin-top: 200px;
+        Border-radius:100px;  
+        box-shadow: 0 0 30px rgb(0, 247, 255); 
+    }
+    .content h1{
+        text-align: center; 
+        color: white;
+    }
+
+    .content h2{
+        text-align: center;
+        color:white;
+    }
+
+    .content p{
+        text-align: center;
+        line-height: 1.5;
+        gap:20px;
+        color:white;
+    }
+    .social-icons{
+        display: flex;
+        position: absolute;
+        margin-left: 800px;
+        gap:100px;
+        margin-top:450px;
+        color: black;
+        font-size: 30px;
+       
+     }
+     .social-icons :hover{
+        color:#b2e130;
+     }
+
+.social-icons a:nth-child(1) { color: #30c6e1; } 
+.social-icons a:nth-child(2) { color: #0f0b0c; }
+.social-icons a:nth-child(3) { color: #e21c1c; } 
+
+
+.resume-container{
+    position: absolute;
+    background-color:rgb(0, 255, 234);
+    margin-top:580px;
+    margin-left: 230px;
+    height:50px;
+    width:200px;
+    border-radius: 50px;
+    box-shadow: 0 0 30px rgb(0, 242, 255) ;
+}
+.resume-btn{
+    position: absolute;
+    margin-left:25px;
+    margin-top: 10px;
+    color:black;
+    font-size:20px;
+    text-decoration: none;
+}
+
+/* <!---Education---> */
+#Education {
+    position: absolute;
+    height:750px;
+    width:100vw;
+    margin-top:700px;
+    box-shadow: 0 0 30px rgb(0, 251, 255);
+}
+
+#Education h2{
+    text-align:center;
+    color:white;
+    font-size: 40px;
+}
+
+#Education .Btech{
+    display: flex;
+    justify-content: center;
+    height:300px;
+    width:800px;
+    margin-left: 250px;
+    margin-top:10px;
+    box-shadow:0 0 30px #00ffff;
+}
+
+#Education .Btech img{
+    position: absolute;
+    width:80px;
+    height:80px;
+    margin-right:700px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#Education .Btech h3{
+    position: absolute;
+    color: white;
+    width:300px;
+    margin-right:290px;
+    margin-top:10px;
+    font-size: 20px;    
+}
+
+#Education .Btech p{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.518);
+    margin-right:270px;
+    margin-top:40px;
+    line-height: 25px;
+}
+
+#Education .Btech h4{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.518);
+    margin-right:650px;
+    margin-top:120px;
+}
+
+#Education .Btech h5{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.477);
+    width:750px;
+    margin-top:150px;
+    line-height: 20px;
+    font-size: 15px;
+    margin-right:10px;
+}
+
+#Education .school{
+    display: flex;
+    justify-content: center;
+    height:250px;
+    width:800px;
+    margin-left: 250px;
+    margin-top:25px;
+    box-shadow:0 0 30px #00ffff;
+}
+
+#Education .school img{
+    position: absolute;
+    width:80px;
+    height:80px;
+    margin-right:700px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+#Education .school h3{
+    position: absolute;
+    color: white;
+    width:500px;
+    margin-right:90px;
+    margin-top:10px;
+   font-size: 20px;
+}
+
+#Education .school p{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.518);
+    margin-right:480px;
+    margin-top:40px;
+    line-height: 25px;
+    
+}
+
+#Education .school h4{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.518);
+    margin-right:600px;
+    margin-top:120px;
+    line-height: 25px;
+    
+}
+
+#Education .school h5{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.477);
+    width:750px;
+    margin-top:190px;
+    line-height: 25px;
+    font-size: 15px;
+    margin-right:10px;
+}
+
+#Skill{
+    position: absolute;
+    height:1100px;
+    width:100vw;
+    margin-top: 1500px;
+    box-shadow: 0 0 30px rgb(0, 238, 255);
+}
+
+#Skill h2{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+}
+#Skill .frontend{
+    position: absolute;
+    margin-left:200px;
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    padding:50px;
+    box-shadow: 0 0 30px rgb(0, 238, 255);
+}
+#Skill .backend{
+    position: absolute;
+    height:400px;
+    width: 400px;
+    margin-left:700px;
+    margin-top:35px;
+    box-shadow:0 0 30px rgb(0, 251, 255);
+}
+#Skill .frontend h2{
+    color:white;
+    margin-top:-20px;
+    font-size: 35px;
+}
+#Skill .backend h2{
+    color:white;
+    font-size: 35px;
+    margin-top:25px;
+}
+#Skill .html img{
+    position: absolute;
+    height: 50px;
+    width:50px;
+}
+
+#Skill .html p{
+    position: absolute;
+    color:white;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-shadow: 0px 0px 30px rgb(0, 255, 229);
+}
+#Skill .css img{
+    position: absolute;
+    height: 50px;
+    width:50px;
+    margin-top:50px;
+}
+
+#Skill .css p{
+    position: absolute;
+    color:white;
+    margin-left: 50px;
+    margin-top: 65px;
+    font-size: 25px;
+    text-shadow: 0px 0px 30px rgb(0, 255, 229);
+}
+
+#Skill .js img{
+    position: absolute;
+    height: 50px;
+    width:50px;
+    margin-top:100px;
+}
+
+#Skill .js p{
+    position: absolute;
+    color:white;
+    margin-left: 50px;
+    margin-top: 115px;
+    font-size: 25px;
+    text-shadow: 0px 0px 30px rgb(0, 255, 229);
+}
+
+#Skill .boot img{
+    position: absolute;
+    height: 50px;
+    width:50px;
+    margin-top:150px;
+}
+
+#Skill .boot p{
+    position: absolute;
+    color:white;
+    margin-left: 55px;
+    margin-top: 165px;
+    font-size: 25px;
+    text-shadow: 0px 0px 30px rgb(0, 255, 229);
+}
+
+#Skill .react img{
+    position: absolute;
+    height: 50px;
+    width:50px;
+    margin-top:210px;
+}
+
+#Skill .react p{
+    position: absolute;
+    color:white;
+    margin-left: 55px;
+    margin-top: 220px;
+    font-size: 25px;
+    text-shadow: 0px 0px 30px rgb(0, 255, 229);
+}
+
+#Skill .Node img{
+    position: absolute;
+    height: 55px;
+    width:50px;
+    margin-top:-10px;
+    margin-left:40px;
+}
+
+#Skill .Node p{
+    position: absolute;
+    color:white;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-shadow: 0px 0px 30px rgb(0, 255, 229);
+}
+#Skill .php img{
+    position: absolute;
+    height: 55px;
+    width:50px;
+    margin-top:50px;
+    margin-left:40px;
+}
+
+#Skill .php p{
+    position: absolute;
+    color:white;
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 25px;
+    text-shadow: 0px 0px 30px rgb(0, 255, 229);
+}
+#Skill .python img{
+    position: absolute;
+    height: 55px;
+    width:50px;
+    margin-top:110px;
+    margin-left:40px;
+}
+#Skill .python p{
+    position: absolute;
+    color:white;
+    margin-left: 100px;
+    margin-top: 130px;
+    font-size: 25px;
+    text-shadow: 0px 0px 30px rgb(0, 255, 229);
+}
+#Skill .mysql img{
+    position: absolute;
+    height: 55px;
+    width:50px;
+    margin-top:170px;
+    margin-left:40px;
+}
+#Skill .mysql p{
+    position: absolute;
+    color:white;
+    margin-left: 100px;
+    margin-top: 190px;
+    font-size: 25px;
+    text-shadow: 0px 0px 30px rgb(0, 255, 229);
+}
+#Skill .mongodb img{
+    position: absolute;
+    height: 55px;
+    width:50px;
+    margin-top:230px;
+    margin-left:40px;
+}
+#Skill .mongodb p{
+    position: absolute;
+    color:white;
+    margin-left: 100px;
+    margin-top: 250px;
+    font-size: 25px;
+    text-shadow: 0px 0px 30px rgb(0, 255, 229);
+}
+
+#Skill .other{
+    position: absolute;
+    margin-left:500px;
+    margin-top: 500px;
+    height: 300px;
+    width: 300px;
+    padding:50px;
+    box-shadow: 0 0 30px rgb(0, 238, 255);
+}
+
+#Skill .other h2{
+    position: absolute;
+    color:white;
+    margin-left:70px;
+    margin-top: -15px;
+}
+#Skill .git img{
+    position: absolute;
+    height: 55px;
+    width:50px;
+    margin-top:40px;
+    margin-left:30px;
+}
+#Skill .git p{
+    position: absolute;
+    color:white;
+    margin-left: 90px;
+    margin-top: 50px;
+    font-size: 25px;
+    text-shadow: 0px 0px 30px rgb(0, 255, 229);
+}
+#Skill .github img{
+    position: absolute;
+    height: 55px;
+    width:50px;
+    margin-top:120px;
+    margin-left:30px;
+}
+#Skill .github p{
+    position: absolute;
+    color:white;
+    margin-left: 90px;
+    margin-top: 140px;
+    font-size: 25px;
+    text-shadow: 0px 0px 30px rgb(0, 255, 229);
+}
+#Skill .vs img{
+    position: absolute;
+    height: 55px;
+    width:50px;
+    margin-top:190px;
+    margin-left:30px;
+}
+#Skill .vs p{
+    position: absolute;
+    color:white;
+    margin-left: 90px;
+    margin-top: 210px;
+    font-size: 25px;
+    text-shadow: 0px 0px 30px rgb(0, 255, 229);
+}
+#Contact{
+    position: absolute;
+    height: 100vh;
+    width:100vw;
+    margin-top:2700px; 
+    box-shadow: 0 0 30px rgb(0, 255, 255); 
+}
+#Contact h2{
+    color:white;
+    text-align: center;
+    font-size:50px;
+}
+#Contact form{
+    height: 350px;
+    width:300px;
+    margin-left: 500px;
+    margin-top:30px;
+    gap:20px;
+    box-shadow: 0 0 30px rgb(0,255,229);
+    
+}
+
+#Contact form input,input textarea{
+    position: relative;
+    margin-left: 15px;
+    width:250px;
+    height:30px;
+    margin-top: 25px;
+    box-shadow: 0 0 30px rgb(0, 229, 255);
+}
+
+#Contact form textarea{
+    width:250px;
+    height:60px;
+    margin-top:20px;
+    margin-left:15px;
+    box-shadow: 0 0 30px rgb(0, 229, 255);
+}
+
+#Contact form button{
+    width:70px;
+    height:30px;
+    margin-left:100px;
+    margin-top:10px;
+    color:#0f2027;
+    background-color: #00ffff;
+    box-shadow: 0 0 30px rgb(0, 229, 255);
+
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .highlight-glow {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, #00ffff, #ff00ff, #00ffff); /* glowing rainbow ring */
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: spinGlow 4s linear infinite;
+  box-shadow: 0 0 30px #00ffff;
+}
+
+.highlight-glow img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #111; /* optional dark ring inside */
+}
+
+/* 🔄 Rotating effect */
+@keyframes spinGlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+}
+}
+</style>
+<body>
+    <div class="highlight-glow">
+  <img src="myphoto.jpg" alt="Anshika" />
+</div>
+    
+</body>
+</html>
